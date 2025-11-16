@@ -22,8 +22,8 @@ Przed szkoleniem należy zainstalować:
 * Rust REPL - `evcxr_repl`
 
   ```bash
-  cargo install evcxr_repl --version=0.20.0 --force --locked 
-  cargo install evcxr_jupyter --version=0.20.0 --force --locked         
+  cargo install evcxr_repl --version=0.18.0 --force --locked 
+  cargo install evcxr_jupyter --version=0.18.0 --force --locked         
   evcxr_jupyter --install
   ```
 
