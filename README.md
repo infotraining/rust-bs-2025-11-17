@@ -1,5 +1,10 @@
 # Programowanie w języku Rust - Szkolenie
 
+## C++ Interop
+
+* https://rust-lang.github.io/rust-bindgen/cpp.html
+* https://cxx.rs/
+
 ## Ankieta
 
 * https://forms.gle/HE4N7iq9iPpR7ApHA
