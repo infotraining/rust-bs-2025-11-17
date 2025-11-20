@@ -24,12 +24,14 @@ fn load_from_json_file(path: &str) -> Vec<Person> {
 }
 
 fn main() {
+    let address = json_data::address::Address::new("123 Main St", "Wonderland", "Fictionland");
+
     let people = create_people();
     
-    let file_path = "people.json";
-    //save_to_json_file(&people, file_path);
+    // let file_path = "people.json";
+    save_to_json_file(&people, file_path);
 
-    let loaded_people = load_from_json_file(file_path);
+    // let loaded_people = load_from_json_file(file_path);
     for person in loaded_people {
         println!("{:?}", person);
     }
