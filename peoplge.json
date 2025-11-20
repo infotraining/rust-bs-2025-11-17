@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "name": "Robert",
+    "name": "Bob",
     "age": 35,
     "address": {
       "street": "456 Side St",

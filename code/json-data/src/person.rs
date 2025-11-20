@@ -1,4 +1,6 @@
-// TODO
+// TODO - implement reqiured trats
+use serde::{Deserialize, Serialize};
+
 pub struct Id(pub u32);
 
 impl Id {
@@ -7,7 +9,6 @@ impl Id {
     }
 }
 
-// TODO
 pub struct Address {
     pub street: String,
     pub city: String,
@@ -24,7 +25,6 @@ impl Address {
     }
 }
 
-// TODO
 pub struct Person {
     pub id: Id,
     pub name: String,
