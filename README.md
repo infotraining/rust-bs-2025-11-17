@@ -1,5 +1,9 @@
 # Programowanie w języku Rust - Szkolenie
 
+## Ankieta
+
+* https://forms.gle/HE4N7iq9iPpR7ApHA
+
 ## Docs
 
 * https://doc.rust-lang.org/book/
