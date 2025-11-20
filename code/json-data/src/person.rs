@@ -2,6 +2,7 @@
 use serde::{Deserialize, Serialize};
 use crate::address::Address;
 
+#[derive(Serialize, Deserialize, Debug, Clone, Copy, PartialEq, Eq, Hash, PartialOrd, Ord)]
 pub struct Id(pub u32);
 
 impl Id {
@@ -10,6 +11,7 @@ impl Id {
     }
 }
 
+#[derive(Serialize, Deserialize, Debug, Clone, PartialEq, Eq)]
 pub struct Person {
     pub id: Id,
     pub name: String,
